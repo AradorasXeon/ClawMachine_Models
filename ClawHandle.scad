@@ -1,0 +1,10 @@
+$fn = 50;
+
+SCREW_LENGTH = 30;
+HDF_HEIGHT = 8;
+SCREW_DIA = 3;
+HANDLE_LENGTH = 90;
+HANDLE_CLEARANCE = 30;
+HANDLE_DIA = 15;
+
+rotate([0,90,0])cylinder(h = HANDLE_LENGTH, d = HANDLE_DIA, center = true);

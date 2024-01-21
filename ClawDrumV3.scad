@@ -1,5 +1,5 @@
 //resolution:
-$fn=50;
+$fn=150;
 
 
 //Input
@@ -10,7 +10,7 @@ h = 2; // base rings width
 
 wormD = 5.2; //worm screw hole diameter [mm]
 
-holeD = 5.2; //shaft hole diameter [mm]
+holeD = 8.2; //shaft hole diameter [mm]
 
 
 
@@ -64,7 +64,7 @@ module shaftHole(holeHeight, holeD)
     difference()
     {
 cylinder(holeHeight, d = holeD);
-translate([-holeD/2,2/5*holeD,0]) cube([holeD,holeD,holeHeight]);
+translate([-holeD/2,3/8*holeD,0]) cube([holeD,holeD,holeHeight]);
     }
 }
 
